@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<script>
+
+		var login = prompt("enter login", "");
+		var password;
+
+		if(login == "admin"){
+			password = prompt("enter password", "");
+
+			if(password == "Чёрный Властелин"){
+				alert("Wellcom");
+			}
+			else if(password == null){
+				alert("login canceled");
+			}
+			else{
+				alert("password is wrong");
+			}
+		}
+		else if(login == null){
+			alert("Вхід відмінено");
+		}
+		else{
+			alert("I dont know you");
+		}
+
+
+
+		/*if (name == "roman"){ 
+			alert("hey, Roman")
+		}
+		else {
+			alert("add correct name")
+		}
+		
+		*/
+
+
+	</script>
+</div>
+</body>
+</html>
