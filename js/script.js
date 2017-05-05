@@ -1,6 +1,6 @@
 /*
 window.onload = function(){
-	alert( 'Hellow World' );
+	alert( 'Hey DUDE!!!' );
 };
 
 
