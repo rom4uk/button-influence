@@ -4,3 +4,12 @@
 	justify-content: space-around;
 	text-align: left;
 }
+
+.popular-art{
+	display: flex;
+	flex-wrap: wrap;
+}
+iframe {
+	max-width: 280px;
+
+}
