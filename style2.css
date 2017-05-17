@@ -1,16 +1,69 @@
+/*   "Open Sans", Arial, sans-serif;  */
+
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-
-
-
-.header-button{
-	height: 50px;
-	background-color: #184FE6;
+body{
+	background-color: #fff;
 }
 
-.credibility-banner{
+.main-wrapper{
+	width: 100%;
+}
+
+.container{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+ul{
+	list-style: none;
+}
+
+nav{
+	position: relative;
+	height: 80px;
+	width: 100%;
+}
+
+nav .nav-rel{
+	position: ;
+	height: 80px;
+	border-bottom: 1px solid grey;
+}
+
+.nav-logo{
+	width: 9%;
+}
+
+.nav-cont{
+	display: flex;
+}
+
+.nav-header a{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+}
+
+.nav-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-left: 100px;
+	width: 90%;
+}
+
+nav ul li{
+	
+}
+
+nav img{
 	height: 60px;
+}
+
+.banner{
+	height: 510px;
 }
