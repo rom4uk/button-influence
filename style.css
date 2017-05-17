@@ -1,5 +1,7 @@
-body{
-	background-color: #fff;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 h1{
@@ -14,6 +16,10 @@ h1{
 nav a p{
 	font-size: 12px;
 	color: #137dab;
+}
+
+.wrapper{
+
 }
 
 .nav-logo{
