@@ -42,6 +42,22 @@ a{
 	color: #fff;
 	text-decoration: none;
 }
+.banner{
+	text-align: center;
+}
+.header-jumbo{
+	padding-top: 150px;
+}
+.header-jumbo h2{
+	  font-weight: 300;
+    font-size: 46px;
+}
+
+.header-jumbo p{
+	  font-size: 18px;
+    font-weight: 400;
+}
+
 
 
 
@@ -51,7 +67,9 @@ a{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-
+.header-jumbo a{
+	background-color: red;
+}
 
 
 
@@ -130,7 +148,6 @@ section .feature-info{
 	justify-content: space-between;
 }
 .consume-widget{
-	border: 1px solid red;
 	width: 33%;
 	display: flex;
 	flex-wrap: wrap;
@@ -144,4 +161,25 @@ section .feature-info{
 }
 .consume-media{
 	width: 80%;
+}
+
+
+
+
+
+
+
+
+
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-wrap{
+	width: 48%;
+}
+
+.footer-row img{
+	padding: 5px 10px;
+	width: 100%;
 }
