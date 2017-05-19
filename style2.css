@@ -70,10 +70,50 @@ a{
 	justify-content: space-around;
 }
 
-.guest .contauner{
+.guest-row{
 	display: flex;
 	flex-wrap: wrap;
 }
 section .feature-info{
-	width: 45%;
+	width: 50%;
+}
+
+.episodes{
+	background-color: #1c1c1c;
+	color: #fff;
+}
+
+.episodes-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.episodes-about{
+	width: 25%;
+}
+
+
+
+
+
+.popular-header{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 91%;
+}
+.popular-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.popular-info{
+	width: 70%;
+}
+.popular-social{
+	width: 30%;
+}
+.popular-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
