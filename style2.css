@@ -8,21 +8,26 @@
 body{
 	background-color: #fff;
 }
+a{
+	text-decoration: none;
+}
+
 .nav-logo img{
 	height: 85px;
 }
 .nav-cont{
+	list-style: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .nav-list{
 	width: 80%;
-	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.nav-list a{
-	text-decoration: none;
-}
+
 .container{
 	max-width: 1080px;
 	margin: 0 auto;
@@ -36,4 +41,39 @@ body{
 .header-button-link{
 	color: #fff;
 	text-decoration: none;
+}
+
+
+
+.cred-list{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+
+.subscribe .container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.subscribe-half{
+	width: 50%;
+}
+.subscribe-media{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.guest .contauner{
+	display: flex;
+	flex-wrap: wrap;
+}
+section .feature-info{
+	width: 45%;
 }
