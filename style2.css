@@ -117,3 +117,31 @@ section .feature-info{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
+
+
+.consume{
+	height: 290px;
+}
+.consume-wrapper{
+	background-color: #1EDEE0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.consume-widget{
+	border: 1px solid red;
+	width: 33%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.consume-number{
+	width: 20%;
+	border-radius: 50%;
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+}
+.consume-media{
+	width: 80%;
+}
