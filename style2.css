@@ -8,62 +8,25 @@
 body{
 	background-color: #fff;
 }
-
-.main-wrapper{
-	width: 100%;
+.nav-logo img{
+	height: 85px;
 }
-
-.container{
-	max-width: 1024px;
-	margin: 0 auto;
-}
-
-ul{
-	list-style: none;
-}
-
-nav{
-	position: relative;
-	height: 80px;
-	width: 100%;
-}
-
-nav .nav-rel{
-	position: ;
-	height: 80px;
-	border-bottom: 1px solid grey;
-}
-
-.nav-logo{
-	width: 9%;
-}
-
 .nav-cont{
 	display: flex;
-}
-
-.nav-header a{
-	text-decoration: none;
-	color: rgb(0, 0, 0);
-}
-
-.nav-list{
-	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	padding-left: 100px;
-	width: 90%;
+	justify-content: space-between;
 }
-
-nav ul li{
-	
+.container{
+	max-width: 1080px;
+	margin: 0 auto;
 }
-
-nav img{
-	height: 60px;
-}
-
 .banner{
 	height: 510px;
+	background: url(img/banner-3-1.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+}
+.header-button-link{
+	color: #fff;
+	text-decoration: none;
 }
