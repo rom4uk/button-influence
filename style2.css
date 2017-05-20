@@ -56,6 +56,14 @@ a{
 .header-jumbo p{
 	  font-size: 18px;
     font-weight: 400;
+    margin: 15px 0 40px 0;
+}
+.header-jumbo a{
+	background-color: #2D89EF;
+  border: 1px solid #246ebf;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
 }
 
 
@@ -66,9 +74,6 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-}
-.header-jumbo a{
-	background-color: red;
 }
 
 
