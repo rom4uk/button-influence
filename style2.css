@@ -10,6 +10,7 @@ body{
 }
 a{
 	text-decoration: none;
+	color: #08b6e6;
 }
 
 .nav-logo img{
@@ -63,21 +64,21 @@ nav a{
 	padding-top: 150px;
 }
 .header-jumbo h2{
-	  font-weight: 300;
-    font-size: 46px;
+	font-weight: 300;
+	font-size: 46px;
 }
 
 .header-jumbo p{
-	  font-size: 18px;
-    font-weight: 400;
-    margin: 15px 0 40px 0;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 15px 0 40px 0;
 }
 .header-jumbo a{
 	background-color: #2D89EF;
-  border: 1px solid #246ebf;
-  border-radius: 5px;
-  padding: 10px 20px;
-  margin-top: 20px;
+	border: 1px solid #246ebf;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin-top: 20px;
 }
 
 
@@ -137,30 +138,83 @@ nav a{
 }
 .guest h3{
 	text-align: center;
-  font-size: 35px;
-  margin-bottom: 20px;
+	font-size: 35px;
+	margin-bottom: 20px;
 }
 .guest-row{
 	display: flex;
 	flex-wrap: wrap;
 }
 section .feature-info{
-	width: 50%;
+	width: calc(50% - 5px);
+	display: flex;
+	flex-wrap: wrap;
+	line-height: 20px;
+}
+.guest-size{
+	width: calc(50% - 5px);
+	padding: 10px 0;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 25px;
+}
+.guest-size h2{
+	font-size: 21px;
+	line-height: 25px;
+	margin: 10px 0;
 }
 
 .episodes{
 	background-color: #1c1c1c;
 	color: #fff;
+	padding: 55px 0;
+}
+.episodes-main{
+	padding-bottom: 15px;
+	font-size: 35px;
+	text-align: center;
 }
 
 .episodes-wrapper{
 	display: flex;
 	flex-wrap: wrap;
-}
-.episodes-about{
-	width: 25%;
+	justify-content: space-between;
+	font-family: sans-serif;
+	padding: 25px 0;
 }
 
+.episodes-about{
+	width: calc(25% - 5px);
+}
+.episodes-about h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+.episodes-photo{
+	margin: 0 0 25px 0;
+}
+.episodes-button{
+	text-align: center;
+	color: #08b6e6;
+	border: 2px solid transparent;
+	border-radius: 3px;
+
+}
+.episodes-btn:hover {
+	border: 2px solid transparent;
+}
+
+.episodes-btn{
+	border: 2px solid;
+	color: #08b6e6;
+	background-color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
 
 
 
