@@ -13,6 +13,7 @@ a{
 	color: #08b6e6;
 }
 
+
 .nav-logo img{
 	height: 85px;
 }
@@ -37,10 +38,12 @@ a{
 	line-height: 20px;
 }
 nav a{
-	color: #000;
+	color: rgba(0, 0, 0, 0.6);
 	font-weight: 600;
 }
-
+nav a:hover{
+	color: #08b6e6;
+}
 
 .container{
 	max-width: 1150px;
@@ -56,6 +59,12 @@ nav a{
 	color: #fff;
 	text-decoration: none;
 	font-size: 18px;
+	transition: all 0.5s;
+}
+.header-button-link:hover{
+	font-size: 22px;
+	border: 2px solid transparent;
+	background-color: #28A9D6;
 }
 .banner{
 	text-align: center;
@@ -301,14 +310,23 @@ section .feature-info{
 	background-color: #d0d0d0;
 	color: #000;
 	line-height: 24px;
+
 }
 .consume-header{
 	padding: 27px 0;
 	width: 80%;
 	margin: auto;
+	text-align: center;
+}
+.consume-header h2{
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+.consume-header h4{
+	font-weight: bold;
 }
 .consume-wrapper{
-	background-color: #1EDEE0;
+	background-color: #d0d0d0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -319,14 +337,32 @@ section .feature-info{
 	flex-wrap: wrap;
 }
 .consume-number{
-	width: 20%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
 	border-radius: 50%;
 	background-color: #000;
 	text-align: center;
-	color: #fff;
+	color: #08b6e6;
+	font-size: 70px;
+	font-weight: bold;
 }
+
 .consume-media{
-	width: 80%;
+	width: 70%;
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.consume-media p{
+	padding-bottom: 15px;
+}
+.consume-media img.blab{
+	width: 50px;
+}
+.consume-media .stitcher{
+	width: 102px;
 }
 
 
@@ -335,8 +371,9 @@ section .feature-info{
 
 
 
-
-
+.footer-main{
+	background-color: #000;
+}
 .footer-row{
 	display: flex;
 	flex-wrap: wrap;
