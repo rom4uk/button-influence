@@ -43,7 +43,7 @@ nav a{
 
 
 .container{
-	max-width: 1080px;
+	max-width: 1150px;
 	margin: 0 auto;
 }
 .banner{
@@ -202,6 +202,9 @@ section .feature-info{
 }
 .episodes-btn:hover {
 	border: 2px solid transparent;
+	background-color: #606060;
+	padding: 5px 20px;
+	border-radius: 2px;
 }
 
 .episodes-btn{
@@ -225,20 +228,67 @@ section .feature-info{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	width: 91%;
+	width: 92%;
+}
+.popular-header{
+	margin-bottom: 20px;
+}
+.popular-left{
+	font-size: 35px;
 }
 .popular-wrapper{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.popular-art{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px 5px 15px 0;
+}
+.popular-about{
+	width: 65%;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+.popular-about h2{
+	padding: 0 10px 10px 0;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+.popular-about p{
+	line-height: 24px;
+	font-size: 16px;
+}
 .popular-info{
 	width: 70%;
 }
 .popular-social{
 	width: 30%;
+	text-align: center;
 }
-.popular-footer{
+.social-right{
+	margin-bottom: 30px;
+}
+.social-facebook{
+	position: relative;
+}
+#like{
+	position: absolute;
+	top: 86px;
+	left: 40px;
+}
+#share{
+	position: absolute;
+	top: 86px;
+	right: 45px;
+}
+#us{
+	position: absolute;
+	top: 6px;
+	left: 40px;
+}
+.social-footer{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -247,7 +297,15 @@ section .feature-info{
 
 
 .consume{
-	height: 290px;
+	padding: 25px 0;
+	background-color: #d0d0d0;
+	color: #000;
+	line-height: 24px;
+}
+.consume-header{
+	padding: 27px 0;
+	width: 80%;
+	margin: auto;
 }
 .consume-wrapper{
 	background-color: #1EDEE0;
