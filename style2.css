@@ -208,17 +208,19 @@ section .feature-info{
 	border: 2px solid;
 	color: #08b6e6;
 	background-color: #1c1c1c;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.7em;
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    transition: all 0.2s;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 35px;
+  padding: 5px 15px;
+  transition: all 0.2s;
+  cursor: pointer;
 }
 
 
 
-
+.popular{
+	padding: 55px 0;
+}
 .popular-header{
 	display: flex;
 	flex-wrap: wrap;
