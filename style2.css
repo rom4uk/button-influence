@@ -8,6 +8,9 @@
 body{
 	background-color: #fff;
 }
+.main-wrapper{
+	max-width: 100%;
+}
 a{
 	text-decoration: none;
 	color: #08b6e6;
@@ -256,6 +259,7 @@ section .feature-info{
 	margin: 15px 5px 15px 0;
 }
 .popular-about{
+	color: #333;
 	width: 65%;
 	margin-left: 10px;
 	padding-bottom: 10px;
@@ -373,16 +377,49 @@ section .feature-info{
 
 .footer-main{
 	background-color: #000;
+	color: #fff;
+	line-height: 24px;
+	padding: 4% 0;
 }
 .footer-row{
 	display: flex;
 	flex-wrap: wrap;
+	padding-bottom: 50px;
+	justify-content: space-between;
 }
 .footer-wrap{
-	width: 48%;
+	width: 47%;
 }
 
 .footer-row img{
 	padding: 5px 10px;
 	width: 100%;
 }
+.fwr{
+	padding-top: 190px;
+}
+h1{
+	font-size: 34px;
+	line-height: 30px;
+}
+
+
+    /* 
+border: 2px solid transparent;
+    background-color: #606060;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+style2.
+ {
+    border: 2px solid;
+    color: #08b6e6;
+    background-color: #1c1c1c;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    padding: 5px 15px;
+    transition: all 0.2s;
+    cursor: pointer;
+    }
+    */
