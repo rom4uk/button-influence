@@ -5,11 +5,8 @@
 	font-size: 16px;
 	text-decoration: none;
 }
-body{
-	background-color: #fff;
-}
 .container{
-	max-width: 1150px;
+	max-width: 1050px;
 	margin: 0 auto;
 }
 
@@ -54,14 +51,53 @@ nav a{
 	background: url(img/banner-3-1.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
-	background-position: left;
+	background-position: center;
 }
 .jumbotron{
 	background-color: transparent;
 }
 
 
+.cred-list{
+	font-size: 21px;
+	font-weight: bold;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.cred-list a:hover{
+	filter: brightness(120%);
+}
 
+
+.subscribe{
+	background-color: #08b6e6;
+	color: #fff;
+}
+.subscribe .container{
+	padding: 20px 0 60px;
+}
+.subscribe a:hover{
+	filter: contrast(4);
+}
+.sub-left h4{
+	font-size: 30px;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+.sub-right li{
+	font-size: 19px;
+}
+.sub-right h3{
+	font-size: 22px;
+	font-weight: bold;
+}
+.stitch{
+	text-align: right;
+}
 
 
 .episodes{
