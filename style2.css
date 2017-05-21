@@ -8,9 +8,7 @@
 body{
 	background-color: #fff;
 }
-.main-wrapper{
-	max-width: 100%;
-}
+
 a{
 	text-decoration: none;
 	color: #08b6e6;
@@ -63,11 +61,12 @@ nav a:hover{
 	max-width: 1150px;
 	margin: 0 auto;
 }
-.banner{
-	height: 510px;
+.header-main{
+	min-height: 510px;
 	background: url(img/banner-3-1.jpg) no-repeat;
 	background-size: cover;
 	color: #fff;
+	background-position: center;
 }
 .header-button-link{
 	color: #fff;
@@ -444,7 +443,6 @@ footer{
 	color: #fff;
 	padding-top: 10px;
 }
-footer p{
-}
+
 
 

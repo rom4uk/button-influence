@@ -2,68 +2,141 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-size: 16px;
+	text-decoration: none;
 }
-
-h1{
-	font-size: 14px;
-	color: #000;
-	font-weight: bold;
-	margin: 0;
-}
-
-
-
-nav a p{
-	font-size: 12px;
-	color: #137dab;
-}
-
-.wrapper{
-
-}
-
-.nav-logo{
-	text-align: center;
-}
-
-.nav-list ul li{
-	margin: 20px 0;
-}
-
-.nav-list ul li a{
-	padding: 10px 13px;
-	color: #000;
-}
-
-.nav-list ul li a:focus{
-	color: #429ed7;
-}
-
-
-.main-wrapper{
-	max-width: 100%;
-	background-color: #000;
-}
-.main-wrapper .jumbotron{
-	background-color: transparent;
-	color: #fff;
+body{
+	background-color: #fff;
 }
 .container{
-	max-width: 1024px;
+	max-width: 1150px;
+	margin: 0 auto;
 }
 
-#search-ico{
-	background: url(img/png/search1.png) center no-repeat;
+
+.list-search{
+	padding-top: 15px;
+}
+.nav-list{
+	padding-top: 20px;
+	margin: auto;
+	padding-left: 20px;
+}
+.nav-list li{
+	font-size: 18px;
+	line-height: 20px;
+}
+.list-search{
+	margin: auto;
+}
+.list-search:hover{
+	filter: brightness(-10%);
+}
+nav a{
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: 600;
+}
+.nav-pills li a:hover{
+	color: #08b6e6;
+	background-color: transparent;
+}
+.nav-logo img{
+	height: 85px;
+}
+.nav-logo a:hover{
+	filter: sepia(200%);
 }
 
-.feature-info{
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	text-align: left;
+
+
+.banner-wrapper{
+	min-height: 510px;
+	background: url(img/banner-3-1.jpg) no-repeat;
+	background-size: cover;
+	color: #fff;
+	background-position: left;
+}
+.jumbotron{
+	background-color: transparent;
 }
 
-.popular-art{
-	display: flex;
-	flex-wrap: wrap;
+
+
+
+
+.episodes{
+	background-color: #1c1c1c;
+	color: #fff;
+	padding: 55px 0;
+}
+.episodes-main{
+	padding-bottom: 15px;
+	font-size: 35px;
+	text-align: center;
+}
+.
+.episodes-about h2{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+.footer-main{
+	background-color: #000;
+	color: #fff;
+	line-height: 24px;
+	padding: 4% 0;
+}
+.footer-row{
+	padding-bottom: 50px;
+}
+.footer-row img{
+	padding: 5px 10px;
+	width: 100%;
+}
+.footer-right{
+	padding-top: 173px;
+}
+h1{
+	font-size: 34px;
+	line-height: 30px;
+}
+.footer-btn{
+	text-align: center;
+	padding: 50px 0;
+}
+.foot-btn{
+	padding: 10px 17px;
+	background-color: transparent;
+	border-radius: 8px;
+	border: 2px solid;
+	font-weight: bold;
+	font-size: 20px;
+	color: #2ea3f2;
+	transition: all 0.4s
+}
+.foot-btn:hover{
+
+	border: 2px solid transparent;
+	background-color: #C13DA1;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #cff;
+}
+
+
+
+
+footer{
+	padding-bottom: 25px;
+	background-color: #222;
+	text-align: center;
+	line-height: 20px;
+}
+.legalese{
+	color: #fff;
+	padding-top: 20px;
 }
