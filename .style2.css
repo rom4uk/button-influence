@@ -296,9 +296,6 @@ section .feature-info{
 .social-right{
 	margin-bottom: 30px;
 }
-.social-facebook{
-	position: relative;
-}
 
 .social-footer{
 	display: flex;
@@ -320,7 +317,6 @@ section .feature-info{
 	background-color: #d0d0d0;
 	color: #000;
 	line-height: 24px;
-
 }
 .consume-header{
 	padding: 27px 0;
