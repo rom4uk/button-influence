@@ -203,6 +203,73 @@ nav a{
 .popular-art{
 	margin: 15px 5px 15px 0;
 }
+.popular-about{
+	color: #333;
+}
+.popular-about h2{
+	padding: 0 10px 10px 0;
+	margin-bottom: 10px;
+}
+.popular-about p{
+	line-height: 24px;
+	font-size: 16px;
+}
+.social-footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.social-footer a{
+	font-size: 15px;
+}
+.social-footer a:hover{
+	background-color: #F6F8EB;
+	border: 2px solid mistyrose;
+}
+
+
+
+
+.consume{
+	padding: 25px 0;
+	background-color: #d0d0d0;
+	color: #000;
+	line-height: 24px;
+}
+.consume-header{
+	padding: 27px 0;
+	margin: auto;
+	text-align: center;
+}
+.consume-header h2{
+	font-size: 35px;
+	padding-bottom: 10px;
+}
+.consume-header h4{
+	font-weight: bold;
+}
+.consume-wrapper{
+	background-color: #d0d0d0;
+}
+.consume-widget{
+	display: flex;
+	flex-wrap: wrap;
+}
+.consume-media{
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.consume-media p{
+	padding-bottom: 15px;
+}
+.consume-media img.blab{
+	width: 50px;
+}
+.consume-media .stitcher{
+	width: 102px;
+}
+
 
 
 
